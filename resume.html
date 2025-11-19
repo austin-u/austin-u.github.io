@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Austin's resume — professional experience, education, and skills." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css" />
+
+<title>Resume — Austin</title>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary">
+    <div class="brand">
+    <a href="index.html" class="brand__link" aria-label="Go to home"><b>Austin Ulep</b></a>
+    </div>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="nav__toggle-line" aria-hidden="true"></span>
+            <span class="nav__toggle-line" aria-hidden="true"></span>
+            <span class="nav__toggle-line" aria-hidden="true"></span>
+            <span class="visually-hidden">Menu</span>
+        </button>
+    <ul id="nav-menu" class="nav__list">
+        <li><a href="index.html" class="nav__link"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html" class="nav__link"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="projects.html" class="nav__link"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="contact.html" class="nav__link"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li><a href="resume.html" class="nav__link"><i class="fas fa-file-alt"></i> Resume</a></li>
+        <li><a href="https://github.com/austin-u" class="nav__link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
+    </ul>
+    </nav>
+</header>
+
+<main id="main">
+<section class="section resume" aria-label="Resume">
+    <div class="container reveal">
+        <h1 class="section__title">Resume</h1>
+        <p class="section__desc">Download my resume or view the formatted version below.</p>
+    <div class="resume-download">
+    <a href="assets/resume.pdf" class="btn btn--primary" download>
+        <i class="fas fa-download"></i> Download PDF
+    </a>
+    </div>
+
+    <div class="resume-content">
+        <h2 class="resume-section__title">Experience</h2>
+        <article class="resume-item">
+            <h3 class="resume-item__role">Frontend Developer</h3>
+            <p class="resume-item__company">Company Name — 2023–Present</p>
+            <ul class="resume-item__details">
+                <li>Built responsive web applications with HTML, CSS, and JavaScript.</li>
+                <li>Implemented accessibility standards and optimized performance.</li>
+                <li>Collaborated with designers to deliver polished UI/UX.</li>
+            </ul>
+        </article>
+
+    <h2 class="resume-section__title">Education</h2>
+        <article class="resume-item">
+            <h3 class="resume-item__role">Bachelor of Science in Computer Science</h3>
+            <p class="resume-item__company">University Name — Graduation Year</p>
+            <p class="resume-item__details">Focused on software engineering, UI/UX, and scalable application design.</p>
+        </article>
+
+    <h2 class="resume-section__title">Skills</h2>
+        <ul class="skills-grid" role="list">
+            <li class="skill-card">
+                <div class="skill-card__icon">
+                <i class="fas fa-palette"></i>
+                </div>
+                <h3 class="skill-card__title">UI/UX Specialization</h3>
+                <p class="skill-card__desc">Designing intuitive user interfaces and seamless experiences through research, wireframes, and prototypes.</p>
+            </li>
+            <li class="skill-card">
+            <div class="skill-card__icon">
+            <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3 class="skill-card__title">Web Development & Design</h3>
+                <p class="skill-card__desc">Building responsive, visually appealing websites with modern HTML, CSS, JavaScript, and design principles.</p>
+                </li>
+                <li class="skill-card">
+            <div class="skill-card__icon">
+                <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <h3 class="skill-card__title">Graphic Arts & Design</h3>
+            <p class="skill-card__desc">Creating compelling graphics, digital illustrations, branding, and visual content for both web and print.</p>
+        </li>
+        <li class="skill-card">
+            <div class="skill-card__icon">
+            <i class="fas fa-terminal"></i>
+            </div>
+            <h3 class="skill-card__title">Linux, macOS & Windows</h3>
+            <p class="skill-card__desc">Proficient in working across Linux, macOS, and Windows environments, ensuring cross-platform development and troubleshooting.</p>
+        </li>
+        <li class="skill-card">
+            <div class="skill-card__icon">
+            <i class="fas fa-robot"></i>
+            </div>
+            <h3 class="skill-card__title">AI & Prompt Engineering</h3>
+            <p class="skill-card__desc">Skilled in working with AI tools and prompt engineering to optimize workflows, automate tasks, and generate creative content.</p>
+        </li>
+        <li class="skill-card">
+            <div class="skill-card__icon">
+            <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 class="skill-card__title">Quality Assurance</h3>
+            <p class="skill-card__desc">Experienced in manual and automated testing, ensuring high-quality user experiences and bug-free applications.</p>
+        </li>
+        </ul>
+    </div>
+</div>
+</section>   
+</div>
+</div>
+</section>  
+</main>
+
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+    <p>&copy; <span id="year"></span> Austin Ulep.</p>
+    <ul class="socials" role="list">
+        <li><a href="mailto:ulepaustin@gmail.com" class="social-link"><i class="fas fa-envelope"></i> Email</a></li>
+        <li><a href="https://github.com/austin-u" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-github"></i> GitHub</a></li>
+    </ul>
+</div>
+<script src="js/script.js" defer></script>
+</footer>
+</body>
+</html>

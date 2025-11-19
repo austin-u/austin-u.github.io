@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Austin's portfolio projects — case studies, screenshots, and live demos." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css" />
+
+<title>Projects — Austin</title>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary">
+    <div class="brand">
+    <a href="index.html" class="brand__link" aria-label="Go to home"><b>Austin Ulep</b></a>
+    </div>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="nav__toggle-line" aria-hidden="true"></span>
+            <span class="nav__toggle-line" aria-hidden="true"></span>
+            <span class="nav__toggle-line" aria-hidden="true"></span>
+            <span class="visually-hidden">Menu</span>
+        </button>
+    <ul id="nav-menu" class="nav__list">
+        <li><a href="index.html" class="nav__link"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html" class="nav__link"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="projects.html" class="nav__link"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="contact.html" class="nav__link"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li><a href="resume.html" class="nav__link"><i class="fas fa-file-alt"></i> Resume</a></li>
+        <li><a href="https://github.com/austin-u" class="nav__link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
+    </ul>
+    </nav>
+</header>
+
+<main id="main">
+    <section class="section projects" aria-label="Projects showcase">
+        <div class="container reveal">
+            <h1 class="section__title">Projects</h1>
+            <p class="section__desc">Here are some of my featured works.</p>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-card__content">
+                    <h2 class="project-card__title"><i class="fas fa-rocket"></i> PassGuardia</h2>
+                    <p class="project-card__desc">A password manager application designed to securely store and manage user passwords.</p>
+                    <p class="project-card__stack"><i class="fas fa-tools"></i> <strong>Tech stack:</strong> C#, .NET, .NET MAUI</p>
+                    <div class="project-card__links">
+                    <a href="https://github.com/austin-u/Pass-Guardia" target="_blank" rel="noopener noreferrer" class="btn btn--ghost"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+            </div>
+            </article>
+            <article class="project-card">
+            <div class="project-card__content">
+                    <h2 class="project-card__title"><i class="fas fa-rocket"></i> Bangko Filipino</h2>
+                    <p class="project-card__desc">A banking website designed to provide users with seamless online banking services.</p>
+                    <p class="project-card__stack"><i class="fas fa-tools"></i> <strong>Tech stack:</strong> HTML, CSS, JS, Bootstrap</p>
+                    <div class="project-card__links">
+                    <a href="https://donutl12.github.io/Finance-Banking.io/home.html" target="_blank" rel="noopener noreferrer" class="btn btn--primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            </article>
+            <article class="project-card">
+            <div class="project-card__content">
+                    <h2 class="project-card__title"><i class="fas fa-rocket"></i> Lakbay Gabay</h2>
+                    <p class="project-card__desc">A tourism website that centralized travel information and guides for Filipino destinations.</p>
+                    <p class="project-card__stack"><i class="fas fa-tools"></i> <strong>Tech stack:</strong> HTML, CSS, JS, PHP, SQL, OpenStreetMap, Leaflet</p>
+                    <div class="project-card__links">
+                    <a href="https://lakbaygabay.site" target="_blank" rel="noopener noreferrer" class="btn btn--primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            </article>
+        </div>
+    </div>
+    </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+    <p>&copy; <span id="year"></span> Austin Ulep.</p>
+    <ul class="socials" role="list">
+        <li><a href="mailto:ulepaustin@gmail.com" class="social-link"><i class="fas fa-envelope"></i> Email</a></li>
+        <li><a href="https://github.com/austin-u" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-github"></i> GitHub</a></li>
+    </ul>
+</div>
+<script src="js/script.js" defer></script>
+</footer>
+</body>
+</html>
